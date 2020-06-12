@@ -151,11 +151,6 @@ def playMusic(filename, loops=0, start=0.0, value=0.5):
                     if value >= 0.1:
                         value -= 0.1
                         pygame.mixer.music.set_volume(value)
-                if command == '>':
-                    print(pygame.mixer.music.get_pos()/1000)
-                    pygame.mixer.music.set_pos(1000*10)
-                if command == '<':
-                    pygame.mixer.music.set_pos(-5)
                 else:
                     continue
         else:
@@ -281,12 +276,11 @@ def downlodHandler(start,end,url,filename,file_size):
 
 
 if __name__ == '__main__':
-    # fire.Fire({
-    #     'stock': getStockInfo,
-    #     'trans': translate,
-    #     'music': searchSongV2
-    # })
-    # myMusicList()
-    playMusic('./music/Let Her Go.mp3',start=0)
+    fire.Fire({
+        'stock': getStockInfo,
+        'trans': translate,
+        'music': searchSongV2
+    })
+
 
 
