@@ -1,5 +1,5 @@
 intsall:
-pip intsall requirements.txt
+pip intsall -r requirements.txt
 
 usage:
 python tool.py stock "stockname or code" eg: python tool.py stock "hxsn"
