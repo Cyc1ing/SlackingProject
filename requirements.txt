@@ -1,0 +1,16 @@
+backports.functools-lru-cache==1.5
+beautifulsoup4==4.7.1
+certifi==2019.6.16
+chardet==3.0.4
+decorator==4.4.0
+enum34==1.1.10
+fire==0.3.1
+idna==2.8
+lxml==3.7.2
+Markdown==3.1.1
+requests==2.22.0
+Send2Trash==1.5.0
+six==1.14.0
+soupsieve==1.9.2
+termcolor==1.1.0
+urllib3==1.25.3
